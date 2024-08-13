@@ -1,51 +1,31 @@
-.encabezadoMenu {
-    background-color: #f2f2f2; /* Color de fondo del menú */
-    display: flex; /* Utiliza flexbox para un diseño adaptable */
-    justify-content: space-between; /* Distribuye los elementos horizontalmente */
-    padding: 10px;
-  }
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex; /* Utiliza flexbox para los elementos de menú */
-    margin-left: auto;
-    
-  
-}
-  
-  li {
-    margin: 0 10px; /* Espacio entre elementos de menú */
-  }
-  
-  li a {
-    text-decoration: none;
-    color: #333; /* Color del texto */
-    padding: 14px 16px;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
-  }
-  
-  li a:hover {
-    background-color: #e0e0e0; /* Color de fondo al pasar el mouse */
-  }
-  
-  {
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center;     /* Centra verticalmente (si el contenedor tiene altura fija) */
-    height: 100vh;           /* Opcional: hace que el contenedor tenga la altura de la ventana para centrar verticalmente */
+.ElementoDeGoogle{
+  display: flex;
+  justify-content:flex-end;
 }
 
-{
-    display: flex;
-    justify-content: center; /* Centra horizontalmente */
-    align-items: center;     /* Centra verticalmente (si el contenedor tiene altura fija) */
-    height: 100vh;           /* Opcional: hace que el contenedor tenga la altura de la ventana para centrar verticalmente */
+.ElementoDeGoogle ul{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  align-items: center;
 }
 
-img {
-    max-width: 100%;  /* Ajusta el tamaño de la imagen para que no se desborde del contenedor */
-    height: auto;     /* Mantiene la proporción original de la imagen */
+.ElementoDeGoogle ul li{
+  margin-right: 10px;
+}
+
+.ElementoDeGoogle ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.ParteCentral{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ParteCentral input{
+margin-top: 10px;
+margin-bottom: 10px;
 }
